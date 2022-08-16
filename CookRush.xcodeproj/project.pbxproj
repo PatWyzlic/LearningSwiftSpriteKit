@@ -16,6 +16,7 @@
 		4E4F2D8F28A9FAB700E20E17 /* CookRushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F2D8E28A9FAB700E20E17 /* CookRushTests.swift */; };
 		4E4F2D9B28A9FAB700E20E17 /* CookRushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F2D9A28A9FAB700E20E17 /* CookRushUITestsLaunchTests.swift */; };
 		4E4F2DAD28A9FF8500E20E17 /* CookRushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F2D9828A9FAB700E20E17 /* CookRushUITests.swift */; };
+		4E7204F128AB3402004A2391 /* smallspaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7204F028AB3402004A2391 /* smallspaceship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4E4F2D9428A9FAB700E20E17 /* CookRushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookRushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4F2D9828A9FAB700E20E17 /* CookRushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookRushUITests.swift; sourceTree = "<group>"; };
 		4E4F2D9A28A9FAB700E20E17 /* CookRushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookRushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E7204F028AB3402004A2391 /* smallspaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallspaceship.png; path = CookRush/sprites/smallspaceship.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4E4F2D7C28A9FAB300E20E17 /* GameViewController.swift */,
 				4E4F2D7E28A9FAB300E20E17 /* Main.storyboard */,
 				4E4F2D8128A9FAB700E20E17 /* Assets.xcassets */,
+				4E7204F228AB3447004A2391 /* sprites */,
 				4E4F2D8328A9FAB700E20E17 /* LaunchScreen.storyboard */,
 			);
 			path = CookRush;
@@ -123,6 +126,14 @@
 				4E4F2D9A28A9FAB700E20E17 /* CookRushUITestsLaunchTests.swift */,
 			);
 			path = CookRushUITests;
+			sourceTree = "<group>";
+		};
+		4E7204F228AB3447004A2391 /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				4E7204F028AB3402004A2391 /* smallspaceship.png */,
+			);
+			path = sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			files = (
 				4E4F2D8028A9FAB300E20E17 /* Main.storyboard in Resources */,
 				4E4F2D8228A9FAB700E20E17 /* Assets.xcassets in Resources */,
+				4E7204F128AB3402004A2391 /* smallspaceship.png in Resources */,
 				4E4F2D8528A9FAB700E20E17 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
