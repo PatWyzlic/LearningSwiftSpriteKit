@@ -27,4 +27,20 @@ class GameScene: SKScene {
         myFirstTexturedSpriteNode.size = CGSize(width: 100.0, height: 100.0)
         myFirstSpriteNode.addChild(myFirstTexturedSpriteNode)
     }
+    
+    
+    //Easily observe actions
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        myFirstTexturedSpriteNode.run(SKAction.move(to: CGPoint (x: myFirstSpriteNode.size.width, y: myFirstSpriteNode.size.height), duration: 2.0))
+        
+        myFirstSpriteNode.run(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 2.0))
+        
+        myFirstTexturedSpriteNode.run(SKAction.move(to: CGPoint (x: myFirstSpriteNode.size.width, y: myFirstSpriteNode.size.height), duration: 2.0)) {
+            
+            self.myFirstTexturedSpriteNode.position = CGPoint.zero
+        }
+        
+    }
+    
+    
 }
